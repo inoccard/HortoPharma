@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.farma.gui.LancamentoCompra" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/LancamentoCompra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1053" width="270" x="2598" y="1156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.farma.dao.ProdutoDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/ProdutoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="183" x="1301" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.farma.dao.IDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/IDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="166" x="1819" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.farma.gui.BuscaCliente" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/BuscaCliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="44" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.farma.conn.ConnectionFactory" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/conn/ConnectionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="326" x="1343" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.farma.gui.table.FarmaceuticoTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/FarmaceuticoTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="197" x="3459" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.farma.bean.Cliente" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="172" x="311" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.farma.gui.table.ClienteTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/ClienteTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="164" x="105" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.farma.bean.Venda" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Venda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="197" x="372" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.farma.dao.FornecedorDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/FornecedorDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="202" x="2354" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.farma.bean.Produto" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Produto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="175" x="1322" y="3998"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.farma.gui.LancamentoVenda" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/LancamentoVenda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1179" width="270" x="798" y="1156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.farma.gui.table.ItemCompraTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/ItemCompraTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="188" x="2638" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.farma.bean.ItemVenda" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/ItemVenda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="166" x="590" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.farma.dao.CompraDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/CompraDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="183" x="2089" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.farma.gui.table.FornecedorTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/FornecedorTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="188" x="2929" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.farma.Main" project="HortoPharma" file="/HortoPharma/src/com/farma/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="116" x="1819" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.farma.dao.FarmaceuticoDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/FarmaceuticoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="230" x="1819" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="19" language="java" name="com.farma.bean.enums.Situacao" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/enums/Situacao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="138" x="980" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="20" language="java" name="com.farma.gui.Sobre" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/Sobre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="134" x="603" y="1156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.farma.gui.table.VendaTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/VendaTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="163" x="414" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.farma.dao.VendaDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/VendaDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="177" x="938" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.farma.gui.BuscaFornecedor" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/BuscaFornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="2889" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.farma.gui.table.ItemVendaTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/ItemVendaTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="182" x="651" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="25" language="java" name="com.farma.bean.enums.ClasseProduto" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/enums/ClasseProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="148" x="1282" y="4497"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="26" language="java" name="com.farma.bean.Farmaceutico" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Farmaceutico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="131" x="3459" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.farma.gui.Login" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="254" x="1819" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.farma.gui.CadastroFornecedor" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/CadastroFornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="248" x="3171" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.farma.bean.Compra" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Compra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="203" x="2111" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.farma.gui.CadastroFarmaceutico" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/CadastroFarmaceutico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="248" x="3429" y="1156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.farma.gui.Menu" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="265" x="1531" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.farma.bean.ItemCompra" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/ItemCompra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="166" x="2111" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.farma.dao.Conexao" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/Conexao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="149" x="1922" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.farma.bean.Fornecedor" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/bean/Fornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="138" x="2908" y="3481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.farma.dao.ClienteDAO" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/dao/ClienteDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="178" x="1041" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.farma.gui.BuscaProduto" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/BuscaProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="1270" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.farma.gui.CadastroCliente" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/CadastroCliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="248" x="105" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.farma.gui.CadastroProduto" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/CadastroProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="248" x="1531" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.farma.gui.table.CompraTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/CompraTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="169" x="2312" y="2375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.farma.gui.table.ProdutoTableModel" project="HortoPharma" 
+    file="/HortoPharma/src/com/farma/gui/table/ProdutoTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="169" x="1566" y="3018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="41">    
+    <bendpoint x="1249" y="3018"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="43">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="44" name="farmaceuticoDAO"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="46">    
+    <bendpoint x="1208" y="2375"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="47">    
+    <bendpoint x="767" y="1156"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="37"/>  
+  </dependency>  
+  <dependency id="48">    
+    <bendpoint x="1891" y="3018"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="49">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <association id="50">    
+    <bendpoint x="3168" y="3018"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="51" name="fornecedor"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="54">    
+    <bendpoint x="74" y="2375"/>    
+    <bendpoint x="74" y="3018"/>    
+    <bendpoint x="74" y="3481"/>    
+    <bendpoint x="74" y="3998"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="55">    
+    <bendpoint x="2628" y="2375"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="886" y="2375"/>    
+    <bendpoint x="905" y="3018"/>    
+    <bendpoint x="905" y="3481"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="57">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="58" name="venda"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="60">    
+    <bendpoint x="1720" y="3481"/>    
+    <bendpoint x="1720" y="3998"/>    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="61">    
+    <bendpoint x="2511" y="2375"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="62" name="compra"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="64">    
+    <bendpoint x="1540" y="1156"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="38"/>  
+  </dependency>  
+  <dependency id="65">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="66">    
+    <bendpoint x="628" y="2375"/>    
+    <bendpoint x="599" y="3018"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="67">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <association id="69">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="70" name="dados"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="72">    
+    <bendpoint x="2607" y="2375"/>    
+    <bendpoint x="2607" y="3018"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="73">    
+    <bendpoint x="1010" y="3018"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="74">    
+    <bendpoint x="863" y="3481"/>    
+    <bendpoint x="863" y="3998"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="75">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="76" name="itensRemover"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="79">    
+    <bendpoint x="3140" y="2375"/>    
+    <bendpoint x="3147" y="3018"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <dependency id="82">    
+    <bendpoint x="2586" y="3018"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <association id="83">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="84" name="clienteDAO"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="86">    
+    <bendpoint x="1514" y="3018"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="87">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="88" name="dados"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <bendpoint x="299" y="3018"/>    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="91" name="cliente"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <bendpoint x="1765" y="3018"/>    
+    <bendpoint x="1746" y="3481"/>    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="94" name="produto"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="96">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="2307" y="3481"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="99">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="100" name="itens"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="103" name="classe"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="105">    
+    <bendpoint x="32" y="1156"/>    
+    <bendpoint x="32" y="2375"/>    
+    <bendpoint x="32" y="3018"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="106">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="107" name="fornecedor"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="109">    
+    <bendpoint x="383" y="2375"/>    
+    <bendpoint x="320" y="3018"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="111">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="112" name="produto"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="114">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="115" name="produtoDAO"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="117">    
+    <bendpoint x="1291" y="3481"/>    
+    <bendpoint x="1291" y="3998"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="118">    
+    <bendpoint x="53" y="1156"/>    
+    <bendpoint x="53" y="2375"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="119">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <dependency id="120">    
+    <bendpoint x="734" y="2375"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="121">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="122" name="dados"/>      
+      <multiplicity id="123" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="124">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="31"/>  
+  </dependency>  
+  <dependency id="125">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="128">    
+    <bendpoint x="2856" y="3018"/>    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <association id="129">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="130" name="situacao"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="132">    
+    <bendpoint x="1535" y="3018"/>    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="133">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="134">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <dependency id="135">    
+    <bendpoint x="907" y="2375"/>    
+    <bendpoint x="926" y="3018"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="136">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="137">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="33"/>  
+  </dependency>  
+  <association id="139">    
+    <bendpoint x="3686" y="2375"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="140" name="farmaceutico"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="143" name="compra"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="145">    
+    <bendpoint x="884" y="3018"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="146">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <realization id="147">    
+    <bendpoint x="1870" y="3018"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="148">    
+    <bendpoint x="1828" y="495"/>    
+    <bendpoint x="1828" y="1156"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="149">    
+    <bendpoint x="1312" y="3481"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <realization id="150">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="151">    
+    <bendpoint x="1270" y="3018"/>    
+    <bendpoint x="1270" y="3481"/>    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="152">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="153" name="dados"/>      
+      <multiplicity id="154" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="155">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="156">    
+    <bendpoint x="1786" y="3018"/>    
+    <bendpoint x="1788" y="3481"/>    
+    <bendpoint x="1788" y="3998"/>    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="157">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="158" name="fornecedorDAO"/>      
+      <multiplicity id="159" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="161" name="compraDAO"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="164">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="166">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="167" name="dados"/>      
+      <multiplicity id="168" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="169">    
+    <bendpoint x="1828" y="3018"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="170">    
+    <bendpoint x="2898" y="3018"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <dependency id="171">    
+    <bendpoint x="2898" y="1156"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="172">    
+    <bendpoint x="1187" y="2375"/>    
+    <bendpoint x="989" y="3018"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="173">    
+    <bendpoint x="1849" y="3018"/>    
+    <bendpoint x="1767" y="3481"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="174">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="175">    
+    <bendpoint x="968" y="3018"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="176">    
+    <bendpoint x="607" y="2375"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="177" name="venda"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="179">    
+    <bendpoint x="863" y="3018"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <realization id="180">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="181">    
+    <bendpoint x="947" y="3018"/>    
+    <bendpoint x="947" y="3481"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="182">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="183" name="dados"/>      
+      <multiplicity id="184" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="185">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="186">    
+    <bendpoint x="620" y="3018"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="187">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="188" name="vendaDAO"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="190">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="191">    
+    <bendpoint x="884" y="3481"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="192">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <association id="193">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="194" name="itens"/>      
+      <multiplicity id="195" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="196">    
+    <bendpoint x="1166" y="1156"/>    
+    <bendpoint x="1166" y="2375"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <dependency id="197">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="198">    
+    <bendpoint x="1699" y="3481"/>    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="199" name="dados"/>      
+      <multiplicity id="200" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="201">    
+    <bendpoint x="1807" y="3018"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="202">    
+    <bendpoint x="2858" y="2375"/>    
+    <bendpoint x="2877" y="3018"/>    
+    <bendpoint x="2877" y="3481"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="203">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="204" name="itensRemover"/>      
+      <multiplicity id="205" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="206">    
+    <bendpoint x="1145" y="2375"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <association id="207">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="208" name="cliente"/>      
+      <multiplicity id="209" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="210">    
+    <bendpoint x="341" y="3018"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="211">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="212" name="situacao"/>      
+      <multiplicity id="213" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="214">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="215" name="produto"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="217">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <realization id="218">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="219">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="220" name="dados"/>      
+      <multiplicity id="221" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

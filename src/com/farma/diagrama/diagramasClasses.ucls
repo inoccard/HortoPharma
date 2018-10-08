@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.farma.bean.ItemCompra" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/ItemCompra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="166" x="3833" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.farma.dao.CompraDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/CompraDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="183" x="4543" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.farma.dao.Conexao" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/Conexao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="149" x="2932" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.farma.Main" project="HortoFarma" file="/HortoFarma/src/com/farma/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="116" x="721" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.farma.gui.table.ClienteTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/ClienteTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="164" x="4076" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.farma.gui.table.ItemCompraTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/ItemCompraTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="188" x="3605" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="com.farma.bean.enums.Situacao" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/enums/Situacao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="138" x="4083" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <package id="8" language="java" name="com.farma.gui" project="HortoFarma" file="/HortoFarma/src/com/farma/gui" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="106" x="1824" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="9" language="java" name="com.farma.gui.BuscaProduto" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/BuscaProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="3121" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.farma.gui.CadastroProduto" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/CadastroProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="248" x="4984" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.farma.gui.CadastroCliente" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/CadastroCliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="248" x="4640" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.farma.gui.table.CompraTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/CompraTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="169" x="3833" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="13" language="java" name="com.farma.gui.table" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="137" x="1332" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="14" language="java" name="com.farma" project="HortoFarma" file="/HortoFarma/src/com/farma" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="1683" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="15" language="java" name="com.farma.dao" project="HortoFarma" file="/HortoFarma/src/com/farma/dao" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="110" x="1182" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="16" language="java" name="com.farma.gui.table.ProdutoTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/ProdutoTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="169" x="1970" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="com.farma.conn" project="HortoFarma" file="/HortoFarma/src/com/farma/conn" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="117" x="42" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="18" language="java" name="com.farma.gui.BuscaCliente" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/BuscaCliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="199" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="19" language="java" name="com.farma.bean" project="HortoFarma" file="/HortoFarma/src/com/farma/bean" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="117" x="3676" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="20" language="java" name="com.farma.conn.ConnectionFactory" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/conn/ConnectionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="326" x="2367" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.farma.bean.Fornecedor" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/Fornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="138" x="3565" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.farma.gui.Menu" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="265" x="877" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.farma.bean.Compra" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/Compra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="203" x="3833" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.farma.gui.CadastroFarmaceutico" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/CadastroFarmaceutico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="248" x="5582" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.farma.dao.FornecedorDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/FornecedorDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="202" x="4301" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.farma.gui.LancamentoCompra" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/LancamentoCompra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1053" width="270" x="4330" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.farma.gui.Login" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="254" x="3382" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.farma.dao.ClienteDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/ClienteDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="178" x="4766" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.farma.gui.LancamentoVenda" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/LancamentoVenda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1161" width="270" x="5272" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="30" language="java" name="com.farma.bean.enums.ClasseProduto" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/enums/ClasseProduto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="148" x="2179" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="31" language="java" name="com.farma.dao.FarmaceuticoDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/FarmaceuticoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="230" x="5445" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.farma.bean.ItemVenda" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/ItemVenda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="166" x="5715" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.farma.gui.Sobre" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/Sobre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="134" x="1509" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.farma.gui.table.VendaTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/VendaTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="163" x="5870" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="35" language="java" name="com.farma.bean.enums" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/enums" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="159" x="2733" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="36" language="java" name="com.farma.dao.IDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/IDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="166" x="4878" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="37" language="java" name="com.farma.bean.Farmaceutico" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/Farmaceutico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="131" x="6174" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.farma.dao.ProdutoDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/ProdutoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="4984" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.farma.gui.table.ItemVendaTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/ItemVendaTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="182" x="5952" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.farma.dao.VendaDAO" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/dao/VendaDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="177" x="5228" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.farma.gui.table.FarmaceuticoTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/FarmaceuticoTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="197" x="6108" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.farma.gui.BuscaFornecedor" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/BuscaFornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="221" x="460" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.farma.bean.Cliente" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="172" x="4261" y="1701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.farma.gui.table.FornecedorTableModel" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/table/FornecedorTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="188" x="3356" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.farma.bean.Venda" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/bean/Venda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="197" x="5715" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.farma.gui.CadastroFornecedor" project="HortoFarma" 
+    file="/HortoFarma/src/com/farma/gui/CadastroFornecedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="248" x="4042" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="47">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="48" name="produtoDAO"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="51" name="fornecedorDAO"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <bendpoint x="4270" y="1238"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="54" name="cliente"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="57" name="cliente"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="60" name="dados"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="63" name="compra"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="66" name="situacao"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="69" name="itensRemover"/>      
+      <multiplicity id="70" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="71">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="72">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="73" name="farmaceutico"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="76" name="itens"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="79" name="dados"/>      
+      <multiplicity id="80" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="81">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="83" name="compra"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="86" name="dados"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="89" name="itens"/>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <bendpoint x="3574" y="1238"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="92" name="fornecedor"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="95" name="venda"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="97">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="99">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="100" name="farmaceuticoDAO"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="103" name="vendaDAO"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="106" name="dados"/>      
+      <multiplicity id="107" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="109" name="dados"/>      
+      <multiplicity id="110" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="112" name="situacao"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="114">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="115" name="compraDAO"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="117">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <realization id="118">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="119">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="120" name="venda"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="123" name="fornecedor"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="125">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="126" name="dados"/>      
+      <multiplicity id="127" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="129" name="itensRemover"/>      
+      <multiplicity id="130" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="132" name="dados"/>      
+      <multiplicity id="133" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="135" name="clienteDAO"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
